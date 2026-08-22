@@ -1,0 +1,438 @@
+# sent_id = Even_grammar_1
+# text = ila-ja:Ãi ecˇ i-je ila-baha-d-ni abaga-ń Ãa
+# text[eng] = Standing up like this, he stood up, the big bear.
+1	ila-ja:Ãi	ila-ja:Ãi	VERB	_	Derivation=Aug|VerbForm=Conv	4	advcl	_	Gloss=stand.up-AUG.CVB
+2	ecˇ	ecˇ	ADV	_	Deixis=Prox|Derivation=Aug	4	advmod	_	Gloss=PROX.QUAL-AUG
+3	i-je	i	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=3SG
+4	ila-baha-d-ni	ila-baha-d-ni	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast	0	root	_	Gloss=stand.up-AUG.VB-NFUT-3SG
+5	abaga-ń	abaga-ń	NOUN	_	Derivation=Aug	4	nsubj	_	Gloss=grandfather-AUG.DEF
+6	Ãa	Ãa	DET	_	PronType=Dem	5	det	_	Gloss=DEF
+
+# sent_id = Even_grammar_2
+# text = tarit ecˇ i-je ha:mat-ja:Ãi go:n-e-m “ehni!” tarit
+# text[eng] = He [a big man] laughs, and then I say “no”.
+1	tarit	tarit	ADV	_	_	5	advmod	_	Gloss=then
+2	ecˇ	ecˇ	ADV	_	Deixis=Prox|Derivation=Aug	5	advmod	_	Gloss=PROX.QUAL-AUG
+3	i-je	i	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=3SG
+4	ha:mat-ja:Ãi	ha:mat-ja:Ãi	VERB	_	Derivation=Aug|VerbForm=Conv	5	advcl	_	Gloss=laugh-AUG.CVB
+5	go:n-e-m	go:n-e-m	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=NonPast	0	root	_	Gloss=say-NFUT-1SG
+6	“ehni!”	“ehni!”	PART	_	PartType=Foc|Polarity=Neg	5	discourse	_	Gloss=no
+7	tarit	tarit	ADV	_	_	5	advmod	_	Gloss=then
+
+# sent_id = Even_grammar_3
+# text = tarit tarak hat-la-n ecˇ i-ken kotle-kken ampa:r-kakam o.:-cˇa-l
+# text[eng] = Then next to that, they made a tiny little storage shed like this...
+1	tarit	tarit	ADV	_	_	8	advmod	_	Gloss=then
+2	tarak	tarak	DET	_	Deixis=Dist|PronType=Dem	4	det	_	Gloss=DIST
+3	hat-la-n	hat-la-n	NOUN	_	Case=Loc|Number[psor]=Sing|Person[psor]=3|Poss=Yes	8	obl	_	Gloss=base-LOC-POSS.3SG
+4	ecˇ	ecˇ	ADV	_	Deixis=Prox|Derivation=Dim	8	advmod	_	Gloss=PROX.QUAL-DIM
+5	i-ken	i-ken	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Gloss=3PL
+6	kotle-kken	kotle-kken	NOUN	_	Definite=Ind|Derivation=Dim	8	obj	_	Gloss=small-DIM.INDEF
+7	ampa:r-kakam	ampa:r-kakam	NOUN	_	Case=Acc|Definite=Ind|Derivation=Dim	8	obj	_	Gloss=storage.shed[R]-DIM.INDEF.ACC
+8	o.:-cˇa-l	o.:-cˇa-l	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=make-PF.PTCP-PL
+
+# sent_id = Even_grammar_4
+# text = mo.lgo. kotle-cˇen ahikan-du kotlu:-kken kniga-w bo:-d-ni
+# text[eng] = The/a boy gave the small girl a small book.
+1	mo.lgo.	mo.lgo.	NOUN	_	Focus=Yes	6	nsubj	_	Gloss=boy
+2	kotle-cˇen	kotle-cˇen	ADJ	_	Definite=Def|Derivation=Dim	3	amod	_	Gloss=small-DIM.DEF
+3	ahikan-du	ahikan-du	NOUN	_	Case=Dat	6	iobj	_	Gloss=girl-DAT
+4	kotlu:-kken	kotlu:-kken	ADJ	_	Definite=Ind|Derivation=Dim	5	amod	_	Gloss=small[EMPH]-DIM.INDEF
+5	kniga-w	kniga-w	NOUN	_	Case=Acc	6	obj	_	Gloss=book-ACC
+6	bo:-d-ni	bo:-d-ni	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast	0	root	_	Gloss=give-NFUT-3SG
+
+# sent_id = Even_grammar_5
+# text = kuNa-l imma-ja: urekcˇ tig-ri-tnen
+# text[eng] = The children quickly ran down the hill.
+1	kuNa-l	kuNa-l	NOUN	_	Number=Plur	0	root	_	Gloss=child-PL
+2	imma-ja:	imma-ja:	ADV	_	Derivation=Aug	1	parataxis	_	Gloss=fast-AUG
+3	urekcˇ	en-duk	NOUN	_	Case=Abl	1	parataxis	_	Gloss=hill-ABL
+4	tig-ri-tnen	tig-ri-tnen	VERB	_	Number=Plur|Person=3|Tense=Past	1	parataxis	_	Gloss=fall-PST-3PL
+
+# sent_id = Even_grammar_6
+# text = o. :n nek-e:n-Ãi-m bi: at kuNa-la bi-he-m
+# text[eng] = What will I do [poor me], I don’t have any children.
+1	o.	.o.	PRON	_	PronType=Int	3	nsubj	_	Gloss=how
+2	:n	:n	PART	_	PartType=Disc	1	discourse	_	Gloss=CMPS
+3	nek-e:n-Ãi-m	nek-e:n-Ãi-m	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	Gloss=do-CMPS-FUT-1SG
+4	bi:	bi:	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Gloss=1SG
+5	at	at	PART	_	Polarity=Neg	7	discourse	_	Gloss=NEG
+6	kuNa-la	kuNa-la	NOUN	_	Case=Priv	3	obj	_	Gloss=child-PRV
+7	bi-he-m	bi-he-m	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=NonPast	3	parataxis	_	Gloss=be-NFUT-1SG
+
+# sent_id = Even_grammar_7
+# text = ere ti:ke haNana-ssi-d-da-m Ãi: ia-w suvenir-kakam o.:-nikan ha:n cˇurita-Na-l-bu ne:-ri-w ele egÃo:-meje busa-mdas ecˇ in cˇulbańa-maja
+# text[eng] = I am now trying to sew, making little souvenirs, I put my beads here, one big like a big pearl, a blue one like this.
+1	ere	ere	PART	_	PartType=Disc	5	discourse	_	Gloss=PTL
+2	ti:ke	ti:ke	ADV	_	AdvType=Tim	5	advmod	_	Gloss=now
+3	haNana-ssi-d-da-m	haNana-ssi-d-da-m	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=NonPast	5	xcomp	_	Gloss=sew-CONAT-PROG-NFUT-1SG
+4	Ãi:	Ãi:	INTJ	_	_	3	discourse	_	Gloss=AFF
+5	ia-w	ia-w	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	Gloss=1SG
+6	suvenir-kakam	suvenir-kakam	NOUN	_	Case=Acc|Definite=Ind|Derivation=Dim	3	obj	_	Gloss=souvenir[R]-DIM.INDEF.ACC
+7	o.:-nikan	o.:-nikan	VERB	_	AdvType=Sim|VerbForm=Conv	3	advcl	_	Gloss=make-SIM.CVB
+8	ha:n	ha:n	ADJ	_	PronType=Ind	9	amod	_	Gloss=other
+9	cˇurita-Na-l-bu	cˇurita-Na-l-bu	NOUN	_	Case=Acc|Number=Plur	7	obj	_	Gloss=beads-ALN-PL-ACC
+10	ne:-ri-w	ne:-ri-w	VERB	_	Number=Sing|Person=1|Tense=Past	7	advcl	_	Gloss=put-PST-1SG
+11	ele	ele	ADV	_	_	10	advmod	_	Gloss=here
+12	egÃo:-meje	egÃo:-meje	ADJ	_	Definite=Ind|Derivation=Aug|Focus=Yes	9	amod	_	Gloss=big[EMPH]-AUG.INDEF
+13	busa-mdas	busa-mdas	NOUN	_	Definite=Ind|Derivation=Sim	9	appos	_	Gloss=bead[R]-SML
+14	ecˇ	ecˇ	ADV	_	Deixis=Prox	9	advmod	_	Gloss=PROX.QUAL
+15	in	in	ADP	_	_	9	case	_	Gloss=like
+16	cˇulbańa-maja	cˇulbańa-maja	ADJ	_	Definite=Ind|Derivation=Aug	9	amod	_	Gloss=blue-AUG.INDEF
+
+# sent_id = Even_grammar_8
+# text = cˇulbańa-ń Ãanisa-N-u
+# text[eng] = My big blue bead!
+1	cˇulbańa-ń	cˇulbańa-ń	ADJ	_	Definite=Def|Derivation=Aug	2	amod	_	Gloss=grue-AUG.DEF
+2	Ãanisa-N-u	Ãanisa-N-u	NOUN	_	Number=Sing|Person[psor]=1|Poss=Yes	0	root	_	Gloss=beads-ALN-POSS.1SG
+
+# sent_id = Even_grammar_9
+# text = domNe-le biet-ti kuNa-kka-l guÃeje-kie-kke-l bi-wre-r
+# text[eng] = Children who live in the taiga are often very sweet.
+1	domNe-le	domNe-le	NOUN	_	Case=Loc	5	obl	_	Gloss=taiga-LOC
+2	biet-ti	biet-ti	VERB	_	Aspect=Imp|VerbForm=Part	5	acl	_	Gloss=be.GNR-IMPF.PTCP
+3	kuNa-kka-l	kuNa-kka-l	NOUN	_	Definite=Ind|Derivation=Dim|Number=Plur	5	nsubj	_	Gloss=child-DIM.INDEF-PL
+4	guÃeje-kie-kke-l	guÃeje-kie-kke-l	ADJ	_	Definite=Ind|Degree=Int|Derivation=Dim|Number=Plur	5	amod	_	Gloss=sweet-INTS-DIM.INDEF-PL
+5	bi-wre-r	bi-wre-r	VERB	_	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Tense=NonPast	0	root	_	Gloss=be-HAB[NFUT]-3PL
+
+# sent_id = Even_grammar_10
+# text = Pasko.-cˇane NeneN...
+# text[eng] = Pashko nearly... (fragment)
+1	Pasko.-cˇane	Pasko.-cˇane	PROPN	_	Definite=Def|Derivation=Dim	0	root	_	Gloss=Pashko-DIM.DEF
+2	NeneN	NeneN	ADV	_	_	1	advmod	_	SpaceAfter=No|Gloss=nearly
+3	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Even_grammar_11
+# text = tarak etike-Ne-n etiken Kejmetinov Afanasij Nikolaevis gerbe abaga-ńÃa-wu bi-hi-n tala, 12
+# text[eng] = Her husband, an old man called Afanasij Nikolaevič Kejmetinov, my grandfather, was there.
+1	tarak	tarak	DET	_	Deixis=Dist|PronType=Dem	6	det	_	Gloss=DIST
+2	etike-Ne-n	etike-Ne-n	NOUN	_	Person[psor]=3|Poss=Yes	6	appos	_	Gloss=old.man-ALN-POSS.3SG
+3	etiken	etiken	NOUN	_	_	4	compound	_	Gloss=old.man
+4	Kejmetinov	Kejmetinov	PROPN	_	_	6	flat	_	Gloss=Kejmetinov
+5	Afanasij	Afanasij	PROPN	_	_	6	flat	_	Gloss=Afanasij
+6	Nikolaevis	Nikolaevis	PROPN	_	_	12	nsubj	_	Gloss=Nikolaevis
+7	gerbe	gerbe	NOUN	_	Definite=Def	6	appos	_	Gloss=name
+8	abaga-ńÃa-wu	abaga-ńÃa-wu	NOUN	_	Definite=Def|Derivation=Aug|Person[psor]=1|Poss=Yes	12	nmod	_	Gloss=grandfather-AUG.DEF-POSS.1SG
+9	bi-hi-n	bi-hi-n	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	Gloss=be-PST-3SG
+10	tala	tala	ADV	_	_	12	advmod	_	SpaceAfter=No|Gloss=there
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	12	12	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=be-PST-3SG
+
+# sent_id = Even_grammar_12
+# text = kiliep-u em-u-cˇe ńo. ka-di ecˇ in egÃe-meje kiliep-meje-l bi-wre-cˇe-l,.
+# text[eng] = ...he brought bread, it was Yakut bread, such big [loaves].
+1	kiliep-u	kiliep-u	NOUN	_	Case=Acc	9	obj	_	Gloss=bread[R]-ACC
+2	em-u-cˇe	em-u-cˇe	VERB	_	Aspect=Perf|VerbForm=Part	9	advcl	_	Gloss=come-TRNS-PF.PTCP
+3	ńo.	ńo.	ADJ	_	Attr=Prop	9	amod	_	Gloss=Yakut-ADJ
+4	ka-di	ka-di	ADV	_	_	9	advmod	_	Gloss=PROX.QUAL
+5	ecˇ	ecˇ	ADV	_	Deixis=Prox	9	advmod	_	Gloss=PROX.QUAL
+6	in	in	ADP	_	_	8	case	_	Gloss=like
+7	egÃe-meje	egÃe-meje	ADJ	_	Definite=Ind|Derivation=Aug	8	amod	_	Gloss=big-AUG.INDEF
+8	kiliep-meje-l	kiliep-meje-l	NOUN	_	Definite=Ind|Derivation=Aug|Number=Plur	9	nsubj	_	Gloss=bread[R]-AUG.INDEF-PL
+9	bi-wre-cˇe-l	bi-wre-cˇe-l	VERB	_	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Tense=NonPast	0	root	_	SpaceAfter=No|Gloss=be-HAB[NFUT]-3PL
+10	,	,	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Even_grammar_13
+# text = upe:-ńÃe [...] ulde-kke-l-bu ne:-kecˇ-cˇe
+# text[eng] = My grandmother gave them [some pieces of] meat.
+1	upe:-ńÃe	upe:-ńÃe	NOUN	_	Definite=Def|Derivation=Aug	4	nsubj	_	Gloss=grandmother-AUG.DEF
+2	[...]	[...]	PUNCT	_	_	4	punct	_	_
+3	ulde-kke-l-bu	ulde-kke-l-bu	NOUN	_	Case=Acc|Definite=Ind|Derivation=Dim|Number=Plur	4	obj	_	Gloss=meat-DIM.INDEF-PL-ACC
+4	ne:-kecˇ-cˇe	ne:-kecˇ-cˇe	VERB	_	Aspect=Perf|VerbForm=Part|Voice=Mult	0	root	_	Gloss=put-MULT-PF.PTCP
+
+# sent_id = Even_grammar_14
+# text = tar burduk-kaka-l-bu bekecˇ-cˇen-du-tne bari-cˇ-cˇa-l
+# text[eng] = They gave the small [portions of] flour to everyone.
+1	tar	tar	DET	_	Deixis=Dist|PronType=Dem	4	det	_	Gloss=DIST
+2	burduk-kaka-l-bu	burduk-kaka-l-bu	NOUN	_	Case=Acc|Definite=Ind|Derivation=Dim|Number=Plur	4	obj	_	Gloss=flour[R]-DIM.INDEF-PL-ACC
+3	bekecˇ-cˇen-du-tne	bekecˇ-cˇen-du-tne	NOUN	_	Case=Dat|Definite=Def|Derivation=Dim|Number[psor]=Plur|Person[psor]=3|Poss=Yes	4	iobj	_	Gloss=all-DIM.DEF-DAT-POSS.3PL
+4	bari-cˇ-cˇa-l	bari-cˇ-cˇa-l	VERB	_	Aspect=Perf|Number=Plur|VerbForm=Part|Voice=Res	0	root	_	Gloss=share-RES-PF.PTCP-PL
+
+# sent_id = Even_grammar_15
+# text = tar-cˇam it-tiÃi iNa-duk ho.r-riÃi tik-te-n,
+# text[eng] = Having seen her [the little girl], he got caught on a stone and fell.
+1	tar-cˇam	tar-cˇam	DET	_	Case=Acc|Definite=Def|Deixis=Dist|Derivation=Dim|PronType=Dem	2	obj	_	Gloss=DIST-DIM.DEF.ACC
+2	it-tiÃi	it-tiÃi	VERB	_	Aspect=Ant|VerbForm=Conv	5	advcl	_	Gloss=see-ANT.CVB
+3	iNa-duk	iNa-duk	NOUN	_	Case=Abl	4	obl	_	Gloss=stone-ABL
+4	ho.r-riÃi	ho.r-riÃi	VERB	_	Aspect=Ant|VerbForm=Conv	5	advcl	_	Gloss=get.caught-ANT.CVB
+5	tik-te-n	tik-te-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast	0	root	_	SpaceAfter=No|Gloss=fall-NFUT-3SG
+6	,	,	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Even_grammar_16
+# text = no. nan Ni:-cˇem bak-alda-ra-p Dima-cˇam,
+# text[eng] = At first we met what’s-his-name, little Dima.
+1	no.	no.	ADV	_	_	4	advmod	_	Gloss=at.first
+2	nan	nan	PRON	_	Definite=Def|Derivation=Dim|PronType=Int	4	obj	_	Gloss=who-DIM.DEF
+3	Ni:-cˇem	Ni:-cˇem	VERB	_	VerbForm=Conv	4	advcl	_	Gloss=find-SOC.CVB
+4	bak-alda-ra-p	bak-alda-ra-p	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=NonPast	0	root	_	Gloss=find-SOC-NFUT-1PL
+5	Dima-cˇam	Dima-cˇam	PROPN	_	Case=Acc|Definite=Def|Derivation=Dim	2	appos	_	SpaceAfter=No|Gloss=Dima-DIM.DEF.ACC
+6	,	,	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Even_grammar_17
+# text = tala o.l_ihin me:ne ecˇin ia-maja No. nam go.l-maja no. k-u-k-kara-n.
+# text[eng] = Therefore there a whatchamacallit, a long piece of wood, simply hangs...
+1	tala	tala	ADV	_	_	10	advmod	_	Gloss=there
+2	o.l_ihin	o.l_ihin	ADV	_	_	10	advmod	_	Gloss=therefore
+3	me:ne	me:ne	ADV	_	_	10	advmod	_	Gloss=simply
+4	ecˇin	ecˇin	ADV	_	Deixis=Prox	10	advmod	_	Gloss=PROX.QUAL
+5	ia-maja	ia-maja	NOUN	_	Definite=Ind|Derivation=Aug	10	nsubj	_	Gloss=what-AUG.INDEF
+6	No.	No.	PART	_	Discourse=Yes	10	discourse	_	Gloss=?
+7	nam	nam	ADJ	_	Definite=Ind|Derivation=Aug	8	amod	_	Gloss=long-AUG.INDEF
+8	go.l-maja	go.l-maja	NOUN	_	Definite=Ind|Derivation=Aug	5	appos	_	Gloss=firewood-AUG.INDEF
+9	no.	no.	ADV	_	_	10	advmod	_	Gloss=simply
+10	k-u-k-kara-n	k-u-k-kara-n	VERB	_	Aspect=Res|Mood=Ind|Number=Sing|Person=3|Tense=NonPast|Voice=Detrans	0	root	_	SpaceAfter=No|Gloss=hang.up-DETRNS-RES-HAB[NFUT]-3SG
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Even_grammar_18
+# text = ia-cˇan-ti o. tu:-cˇan-ti ele:r bi-d-de-n,
+# text[eng] = And our whatchamacallit, our fire is here.
+1	ia-cˇan-ti	ia-cˇan-ti	NOUN	_	Definite=Def|Derivation=Dim|Number[psor]=Plur|Person[psor]=1|Poss=Yes	4	nsubj	_	Gloss=what-DIM.DEF-POSS.1PL
+2	o.	o.	DET	_	Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Dem	4	det	_	Gloss=our
+3	tu:-cˇan-ti	tu:-cˇan-ti	NOUN	_	Definite=Def|Derivation=Dim|Number[psor]=Plur|Person[psor]=1|Poss=Yes	4	nsubj	_	Gloss=fire-DIM.DEF-POSS.1PL
+4	ele:r	ele:r	ADV	_	Deixis=Prox	5	advmod	_	Gloss=here
+5	bi-d-de-n	bi-d-de-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast|VerbForm=Prog	0	root	_	SpaceAfter=No|Gloss=be-PROG-NFUT-3SG
+6	,	,	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Even_grammar_19
+# text = hulańa-maja palak-u no. k-cˇa-l
+# text[eng] = They hung a big red flag.
+1	hulańa-maja	hulańa-maja	ADJ	_	Definite=Ind|Derivation=Aug	3	amod	_	Gloss=red-AUG.INDEF
+2	palak-u	palak-u	NOUN	_	Case=Acc	3	obj	_	Gloss=flag-ACC
+3	no.	no.	ADV	_	_	4	advmod	_	Gloss=?
+4	k-cˇa-l	k-cˇa-l	VERB	_	Aspect=Perf|Number=Plur|VerbForm=Part	0	root	_	Gloss=hang.up-PF.PTCP-PL
+
+# sent_id = Even_grammar_20
+# text = naha: dahli-kkan ia-kakan er go:n-i-n
+# text[eng] = “Very tasty, what is this?” he said. (referring to kiwi fruit)
+1	naha:	naha:	ADJ	_	Definite=Ind|Derivation=Dim	5	advmod	_	Gloss=very.tasty-DIM.INDEF
+2	dahli-kkan	dahli-kkan	ADJ	_	Definite=Ind|Derivation=Dim	5	amod	_	Gloss=tasty-DIM.INDEF
+3	ia-kakan	ia-kakan	PRON	_	Definite=Ind|Derivation=Dim|PronType=Int	5	nsubj	_	Gloss=what-DIM.INDEF
+4	er	er	ADV	_	Deixis=Prox	5	advmod	_	Gloss=PROX
+5	go:n-i-n	go:n-i-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=say-PST-3SG
+
+# sent_id = Even_grammar_21
+# text = irbo:k-keken ialdańa-kkan Ãu:
+# text[eng] = A very old, black little house.
+1	irbo:k-keken	irbo:k-keken	ADJ	_	Definite=Ind|Degree=Aug|Derivation=Dim	3	amod	_	Gloss=old[EMPH]-DIM.INDEF
+2	ialdańa-kkan	ialdańa-kkan	ADJ	_	Definite=Ind|Derivation=Dim	3	amod	_	Gloss=coal.black-DIM.INDEF
+3	Ãu:	Ãu:	NOUN	_	_	0	root	_	Gloss=house
+
+# sent_id = Even_grammar_22
+# text = to.bar-ur awna-da:r nek-mi hu: o.ka:t-tuk tarbacˇan hebehri-kken iNa-w ga-riÃur tala awna-lda,
+# text[eng] = “If you want to sharpen your axes, take such roughish stones from the river, sharpen them there,” I said.
+1	to.bar-ur	to.bar-ur	NOUN	_	Number=Plur|Reflex=Yes	9	nsubj	_	Gloss=axe-PRFL.PL
+2	awna-da:r	awna-da:r	VERB	_	Aspect=Purp|VerbForm=Part|Voice=Mid	9	advcl	_	Gloss=sharpen-PURP.CVB.PRFL.PL
+3	nek-mi	nek-mi	VERB	_	VerbForm=Cond	9	advcl	_	Gloss=do-COND.CVB
+4	hu:	hu:	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	Gloss=2PL
+5	o.ka:t-tuk	o.ka:t-tuk	NOUN	_	Case=Abl	7	obl	_	Gloss=river-ABL
+6	tarbacˇan	tarbacˇan	NOUN	_	Definite=Ind|Derivation=Dim	7	obj	_	Gloss=rough-DIM.INDEF stone
+7	hebehri-kken	hebehri-kken	VERB	_	Aspect=Ant|Number=Plur|VerbForm=Part	9	advcl	_	Gloss=take-ANT.CVB.PL
+8	iNa-w	iNa-w	NOUN	_	Case=Acc	7	obj	_	Gloss=stone-ACC
+9	ga-riÃur	ga-riÃur	VERB	_	Number=Plur|Person=2|VerbForm=Imp	0	root	_	Gloss=sharpen-IMP.2PL
+10	tala	tala	ADV	_	_	9	advmod	_	Gloss=there
+11	awna-lda	awna-lda	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=NonPast	9	parataxis	_	SpaceAfter=No|Gloss=say-NFUT-1SG
+12	,	,	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Even_grammar_23
+# text = tar no. Nan: digen kira-lkan No. nam-maja go.l bi-Ãi-n
+# text[eng] = Thereupon he (said): “It will be a very long piece of wood with four edges.”
+1	tar	tar	PART	_	PartType=Prt	6	discourse	_	Gloss=PTL
+2	no.	no.	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Gloss=3SG
+3	Nan:	Nan:	NUM	_	NumType=Card	6	nummod	_	Gloss=four
+4	digen	digen	NOUN	_	_	5	compound	_	Gloss=edge
+5	kira-lkan	kira-lkan	ADJ	_	Definite=Ind|Derivation=Aug	6	amod	_	Gloss=long-AUG.INDEF
+6	No.	No.	NOUN	_	Definite=Ind|Derivation=Aug	0	root	_	Gloss=firewood
+7	nam-maja	nam-maja	ADV	_	_	6	advmod	_	Gloss=very
+8	go.l	go.l	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	parataxis	_	Gloss=be-FUT-3SG
+9	bi-Ãi-n	bi-Ãi-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	parataxis	_	Gloss=be-FUT-3SG
+
+# sent_id = Even_grammar_24
+# text = omen egÃe-meje etiken tegecˇe-d-cˇe gurgata-lkan,
+# text[eng] = One huge old man was sitting, he had a beard.
+1	omen	omen	NUM	_	NumType=Card	4	det	_	Gloss=one
+2	egÃe-meje	egÃe-meje	ADJ	_	Definite=Ind|Derivation=Aug	4	amod	_	Gloss=big-AUG.INDEF
+3	etiken	etiken	NOUN	_	Definite=Ind|Derivation=Dim	4	nsubj	_	Gloss=old.man-DIM.INDEF
+4	tegecˇe-d-cˇe	tegecˇe-d-cˇe	VERB	_	Aspect=Prog|VerbForm=Part|Voice=Act	0	root	_	Gloss=sit-PROG.PTCP
+5	gurgata-lkan	gurgata-lkan	NOUN	_	_	4	obj	_	SpaceAfter=No|Gloss=beard
+6	,	,	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Even_grammar_25
+# text = kolle-kken tünnük-keken bi-h-ni tara-w patuk-cˇa,
+# text[eng] = There is a tiny window; (the bear) hit that.
+1	kolle-kken	kolle-kken	ADJ	_	Definite=Ind|Derivation=Dim	2	amod	_	Gloss=small-DIM.INDEF
+2	tünnük-keken	tünnük-keken	NOUN	_	Definite=Ind|Derivation=Dim	3	nsubj	_	Gloss=window-DIM.INDEF
+3	bi-h-ni	bi-h-ni	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast	0	root	_	Gloss=be-NFUT-3SG
+4	tara-w	tara-w	DET	_	Case=Acc|Deixis=Dist|PronType=Dem	5	obj	_	Gloss=DIST-ACC
+5	patuk-cˇa	patuk-cˇa	VERB	_	Aspect=Perf|VerbForm=Part	3	parataxis	_	SpaceAfter=No|Gloss=hit-PF.PTCP
+6	,	,	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Even_grammar_26
+# text = omen koza-lka-kkan bej ielten-i-n
+# text[eng] = A man with a little goat walked past.
+1	omen	omen	NUM	_	NumType=Card	3	det	_	Gloss=one
+2	koza-lka-kkan	koza-lka-kkan	NOUN	_	Definite=Ind|Derivation=Dim	3	nmod	_	Gloss=goat-DIM.INDEF
+3	bej	bej	NOUN	_	_	4	nsubj	_	Gloss=man
+4	ielten-i-n	ielten-i-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=pass-PST-3SG
+
+# sent_id = Even_grammar_27
+# text = ti:k alta kolohe-lken ucˇ aka-lkan-maja o.:-cˇa bi-he-nni.
+# text[eng] = ...now you have got a big riding reindeer with six wheels [i.e. a truck].
+1	ti:k	ti:k	ADV	_	_	7	advmod	_	Gloss=now
+2	alta	alta	NUM	_	NumType=Card	5	nummod	_	Gloss=six
+3	kolohe-lken	kolohe-lken	NOUN	_	Derivation=Prop	5	compound	_	Gloss=wheel-PROP
+4	ucˇ	ucˇ	NOUN	_	Definite=Ind|Derivation=Prop	5	compound	_	Gloss=riding.reindeer-PROP-AUG.INDEF
+5	aka-lkan-maja	aka-lkan-maja	NOUN	_	Definite=Ind|Derivation=Aug	7	nsubj	_	Gloss=become-PF.PTCP
+6	o.:-cˇa	o.:-cˇa	VERB	_	Aspect=Perf|VerbForm=Part	7	advcl	_	Gloss=be-PF.PTCP
+7	bi-he-nni	bi-he-nni	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=NonPast	0	root	_	SpaceAfter=No|Gloss=be-NFUT-2SG
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Even_grammar_28
+# text = tar emiske abaga-ńÃa ÃiN i-hn-e-n ele gde-to tarako.:n ia-ja:Ãi prt prt go:-je:Ãi noke-behe-d-ni, ...
+# text[eng] = Then suddenly the big bear—it was audible here—did how, made a sound “prt prt”.
+1	tar	tar	DET	_	Deixis=Dist|PronType=Dem	3	discourse	_	Gloss=DIST
+2	emiske	emiske	ADV	_	_	3	advmod	_	Gloss=suddenly
+3	abaga-ńÃa	abaga-ńÃa	NOUN	_	Definite=Def|Derivation=Aug	5	nsubj	_	Gloss=grandfather-AUG.DEF
+4	ÃiN	ÃiN	ADV	_	_	5	advmod	_	Gloss=very
+5	i-hn-e-n	i-hn-e-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast	0	root	_	Gloss=be.audible-LIM-NFUT-3SG
+6	ele	ele	ADV	_	_	5	advmod	_	Gloss=here
+7	gde-to	gde-to	ADV	_	_	5	advmod	_	Gloss=somewhere
+8	tarako.:n	tarako.:n	PRON	_	PronType=Int	9	nsubj	_	Gloss=how
+9	ia-ja:Ãi	ia-ja:Ãi	VERB	_	Derivation=Aug|VerbForm=Conv	5	advcl	_	Gloss=do.what-AUG.CVB
+10	prt	prt	PART	_	PartType=Onom	11	discourse	_	Gloss=prt
+11	prt	prt	PART	_	PartType=Onom	12	discourse	_	Gloss=prt
+12	go:-je:Ãi	go:-je:Ãi	VERB	_	Derivation=Aug|VerbForm=Conv	5	advcl	_	Gloss=say-AUG.CVB
+13	noke-behe-d-ni	noke-behe-d-ni	VERB	_	Number=Sing|Person=3|Tense=NonPast	5	advcl	_	SpaceAfter=No|Gloss=do-AUG.VB-NFUT-3SG
+14	,	,	PUNCT	_	_	5	punct	_	_
+15	...	...	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Even_grammar_29
+# text = tar-cˇa-l buolla gruša-w Ãeb-kenÃur ielten-i-dnen
+# text[eng] = And they [the small boys] walked by eating pears.
+1	tar-cˇa-l	tar-cˇa-l	DET	_	Definite=Def|Deixis=Dist|Derivation=Dim|Number=Plur|PronType=Dem	5	discourse	_	Gloss=DIST-DIM.DEF-PL
+2	buolla	buolla	ADJ	_	Definite=Ind|Derivation=Aug	5	amod	_	Gloss=AUG.INDEF
+3	gruša-w	gruša-w	NOUN	_	Case=Acc	5	obj	_	Gloss=pear-ACC
+4	Ãeb-kenÃur	Ãeb-kenÃur	VERB	_	Derivation=Dim|Number=Plur|VerbForm=Conv	5	advcl	_	Gloss=eat-DIM.CVB.PL
+5	ielten-i-dnen	ielten-i-dnen	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=pass-PST-3PL
+
+# sent_id = Even_grammar_30
+# text = es Vladimira-ńÃa ia-ri-n go:-je:Ãi Oo bi: o.:n halÃu-ha ta-li ńo:-Ãi-m ”
+# text[eng] = No, big Vladimir refused [lit. did what]. “Oh, how will I go out there, how embarrassing,” he said.
+1	es	es	PART	_	PartType=Disc	4	discourse	_	Gloss=no
+2	Vladimira-ńÃa	Vladimira-ńÃa	NOUN	_	Definite=Def|Derivation=Aug	4	nsubj	_	Gloss=Vladimir-AUG.DEF
+3	ia-ri-n	ia-ri-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	advcl	_	Gloss=do.what-PST-3SG
+4	go:-je:Ãi	go:-je:Ãi	VERB	_	Derivation=Aug|VerbForm=Conv	0	root	_	Gloss=say-AUG.CVB
+5	Oo	Oo	INTJ	_	_	4	discourse	_	Gloss=oh
+6	bi:	bi:	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Gloss=1SG
+7	o.:n	o.:n	ADV	_	_	9	advmod	_	Gloss=how
+8	halÃu-ha	halÃu-ha	VERB	_	VerbForm=Excl	9	advcl	_	Gloss=be.embarrassed-EXCL
+9	ta-li	ta-li	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	4	advcl	_	Gloss=exit-FUT-1SG
+10	ńo:-Ãi-m	ńo:-Ãi-m	PART	_	PartType=Disc	9	discourse	_	Gloss=PROL
+11	”	”	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Even_grammar_31
+# text = tala kahna-cˇam-ur hobgi-k-ko:nÃur
+# text[eng] = Smoking their little pipes there, [those dear old women]...
+1	tala	tala	ADV	_	_	3	advmod	_	Gloss=there
+2	kahna-cˇam-ur	kahna-cˇam-ur	NOUN	_	Definite=Def|Derivation=Dim|Number=Plur|Reflex=Yes	3	nsubj	_	Gloss=pipe-DIM.DEF-PRFL.PL
+3	hobgi-k-ko:nÃur	hobgi-k-ko:nÃur	VERB	_	Aspect=Res|Derivation=Dim|Number=Plur|VerbForm=Conv	0	root	_	Gloss=smoke-RES-DIM.CVB.PL
+
+# sent_id = Even_grammar_32
+# text = ieke-wur huj-u-t-je:Ãi-l ulde-we-n anaN ia-wa-n ulde-we-n Ãeb-Ãi-p=tu go:-je:Ãi-l.
+# text[eng] = Boiling our pot (i.e., setting water to boil), saying we’ll probably (hopefully) be eating the meat of a mountain sheep...
+1	ieke-wur	ieke-wur	NOUN	_	Number=Plur|Reflex=Yes	2	nsubj	_	Gloss=pot-PRFL.PL
+2	huj-u-t-je:Ãi-l	huj-u-t-je:Ãi-l	VERB	_	Aspect=Res|Derivation=Aug|Number=Plur|VerbForm=Conv	9	advcl	_	Gloss=boil-TRNS-RES-AUG.CVB-PL
+3	ulde-we-n	ulde-we-n	NOUN	_	Case=Acc|Number=Sing|Person=3|Poss=Yes	9	obj	_	Gloss=meat-ACC-POSS.3SG
+4	anaN	anaN	NOUN	_	_	6	nsubj	_	Gloss=ram
+5	ia-wa-n	ia-wa-n	PRON	_	Case=Acc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	obj	_	Gloss=what-ACC-POSS.3SG
+6	ulde-we-n	ulde-we-n	NOUN	_	Case=Acc|Number=Sing|Person=3|Poss=Yes	9	obj	_	Gloss=meat-ACC-POSS.3SG
+7	Ãeb-Ãi-p=tu	Ãeb-Ãi-p=tu	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	9	advcl	_	Gloss=eat-FUT-1PL=PRES
+8	go:-je:Ãi-l	go:-je:Ãi-l	VERB	_	Derivation=Aug|Number=Plur|VerbForm=Conv	9	advcl	_	SpaceAfter=No|Gloss=say-AUG.CVB-PL
+9	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = Even_grammar_33
+# text = Dima-cˇan kolle-kken bi-hi-n giawanu cˇa:w-du ha:mak-ku:nÃi nok-kere-n
+# text[eng] = Dima was small the year before last, he did (something) laughing very much.
+1	Dima-cˇan	Dima-cˇan	NOUN	_	Definite=Def|Derivation=Dim	3	nsubj	_	Gloss=Dima-DIM.DEF
+2	kolle-kken	kolle-kken	ADJ	_	Derivation=Dim	3	amod	_	Gloss=small-DIM.INDEF
+3	bi-hi-n	bi-hi-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=be-PST-3SG
+4	giawanu	giawanu	ADV	_	_	6	advmod	_	Gloss=last.year
+5	cˇa:w-du	cˇa:w-du	ADV	_	Degree=Int|Derivation=Dim	6	advmod	_	Gloss=far-DAT
+6	ha:mak-ku:nÃi	ha:mak-ku:nÃi	VERB	_	Derivation=Dim|VerbForm=Conv	3	advcl	_	Gloss=laugh-DIM.CVB[EMPH]
+7	nok-kere-n	nok-kere-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast	6	advcl	_	Gloss=do-HAB[NFUT]-3SG
+
+# sent_id = Even_grammar_34
+# text = no. Nan tarit bokke do.:-la-n ülǖ hor-e:n-cˇe mo: do.:-la-n?
+# text[eng] = Then he immediately went under the ice, into the water?
+1	no.	no.	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=3SG
+2	Nan	Nan	ADV	_	_	5	advmod	_	Gloss=then
+3	tarit	tarit	ADV	_	_	5	advmod	_	Gloss=then
+4	bokke	bokke	NOUN	_	Case=Loc|Number=Sing|Person=3|Poss=Yes	5	obl	_	Gloss=ice.inside-LOC-POSS.3SG
+5	do.:-la-n	do.:-la-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=go-CMPS-PF.PTCP
+6	ülǖ	ülǖ	NOUN	_	Case=Loc|Number=Sing|Person=3|Poss=Yes	5	obl	_	Gloss=water.inside-LOC-POSS.3SG
+7	hor-e:n-cˇe	hor-e:n-cˇe	ADV	_	_	5	advmod	_	Gloss=immediately
+8	mo:	mo:	PART	_	_	5	discourse	_	Gloss=prt
+9	do.:-la-n	do.:-la-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	advcl	_	SpaceAfter=No|Gloss=go-CMPS-PF.PTCP
+10	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Even_grammar_35
+# text = beje-t me:n-Ãur ihu-je:t-ti-t
+# text[eng] = So we grew up by ourselves [poor us].
+1	beje-t	beje-t	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nsubj	_	Gloss=self-POSS.1PL
+2	me:n-Ãur	me:n-Ãur	PRON	_	Case=Ins|Number=Plur|PronType=Prs|Reflex=Yes	3	obl	_	Gloss=REFL-INS.PRFL.PL
+3	ihu-je:t-ti-t	ihu-je:t-ti-t	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	Gloss=grow-CMPS-PST-1PL
+
+# sent_id = Even_grammar_36
+# text = irka-cˇa-la-n amar-da-duku-n amm-u ńo:-je:t-te-n
+# text[eng] = When (the child) shouted, from behind him my father came out.
+1	irka-cˇa-la-n	irka-cˇa-la-n	VERB	_	Aspect=Perf|VerbForm=Part	4	advcl	_	Gloss=scream-PF.PTCP
+2	amar-da-duku-n	amar-da-duku-n	NOUN	_	Case=Abl|Number=Sing|Person=3|Poss=Yes	4	obl	_	Gloss=behind-SIDE-ABL-POSS.3SG
+3	amm-u	amm-u	NOUN	_	Number=Sing|Person=1|Poss=Yes	4	nsubj	_	Gloss=father-POSS.1SG
+4	ńo:-je:t-te-n	ńo:-je:t-te-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast|VerbForm=Fin	0	root	_	Gloss=exit-CMPS-NFUT-3SG
+
+# sent_id = Even_grammar_37
+# text = o. ejm-u ejm-u baraxsan i:-Ã-e:n-ne-n
+# text[eng] = Oh, my poor mother is softening leather...
+1	o.	o.	INTJ	_	_	4	discourse	_	Gloss=oh
+2	ejm-u	ejm-u	NOUN	_	Number=Sing|Person=1|Poss=Yes	4	nsubj	_	Gloss=mother-POSS.1SG
+3	ejm-u	ejm-u	NOUN	_	Number=Sing|Person=1|Poss=Yes	4	discourse	_	Gloss=mother-POSS.1SG
+4	baraxsan	baraxsan	ADJ	_	Emph=Yes	0	root	_	Gloss=dear
+5	i:-Ã-e:n-ne-n	i:-Ã-e:n-ne-n	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=NonPast|VerbForm=Fin	4	acl	_	Gloss=prepare.leather-PROG-CMPS-NFUT-3SG
+
+# sent_id = Even_grammar_38
+# text = amm-u buolla baraxsan o.lo.k buluhi-kie o.lo.k tara-Naka:n hokolo-n bütünnü: ecˇ eje:-hen-cˇe-kken em-e:n-ne-n amm-u baraxsan
+# text[eng] = And my poor father came, very pitiful, completely wet from sweat, covered in sweat that is running off him—my poor father.
+1	amm-u	amm-u	NOUN	_	Number=Sing|Person=1|Poss=Yes	12	nsubj	_	Gloss=father-POSS.1SG
+2	buolla	buolla	DET	_	PronType=Dem	3	det	_	Gloss=DP
+3	baraxsan	baraxsan	ADJ	_	Degree=Aug	1	amod	_	Gloss=dear
+4	o.lo.k	o.lo.k	ADV	_	Degree=Int	5	advmod	_	Gloss=completely
+5	buluhi-kie	buluhi-kie	ADJ	_	Degree=Int	1	amod	_	Gloss=pitiful
+6	o.lo.k	o.lo.k	ADV	_	Degree=Int	12	advmod	_	Gloss=completely
+7	tara-Naka:n	tara-Naka:n	ADV	_	Deixis=Prox	12	advmod	_	Gloss=prox.qual
+8	hokolo-n	hokolo-n	VERB	_	Aspect=Perf|VerbForm=Part	12	advcl	_	Gloss=float.downriver-PF.PTCP
+9	bütünnü:	bütünnü:	ADV	_	Degree=Tot	12	advmod	_	Gloss=entirely
+10	ecˇ	in	ADV	_	Deixis=Prox	12	advmod	_	Gloss=prox.qual
+11	eje:-hen-cˇe-kken	eje:-hen-cˇe-kken	VERB	_	Aspect=Perf|VerbForm=Part	12	advcl	_	Gloss=come-PF.PTCP
+12	em-e:n-ne-n	em-e:n-ne-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=NonPast	0	root	_	Gloss=come-3SG
+13	amm-u	amm-u	NOUN	_	Number=Sing|Person=1|Poss=Yes	12	discourse	_	Gloss=father-POSS.1SG
+14	baraxsan	baraxsan	ADJ	_	Degree=Aug	13	amod	_	Gloss=dear
+
+# sent_id = Even_grammar_39
+# text = tacˇ in tewte go:-niken Ãebe-cˇ-cˇe-l tacˇ in neke-Ã-e:n-neke-tnen Ni:-gol eńen-ni bak-cˇa no. Nmutnan
+# text[eng] = They were eating like that, thinking those were berries. While they were doing that, somebody’s mother found them.
+1	tacˇ	tacˇ	DET	_	Deixis=Dist|PronType=Dem	2	det	_	Gloss=DIST
+2	in	in	NOUN	_	_	5	obj	_	Gloss=berries
+3	tewte	tewte	VERB	_	ConvType=Sim|VerbForm=Conv	5	advcl	_	Gloss=say-SIM.CVB
+4	go:-niken	go:-niken	VERB	_	Aspect=Prog|Number=Plur|VerbForm=Part	5	advcl	_	Gloss=eat-PROG
+5	Ãebe-cˇ-cˇe-l	Ãebe-cˇ-cˇe-l	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=do-3PL
+6	tacˇ	tacˇ	DET	_	Deixis=Dist|PronType=Dem	7	det	_	Gloss=DIST
+7	in	in	NOUN	_	_	8	obj	_	Gloss=berries
+8	neke-Ã-e:n-neke-tnen	neke-Ã-e:n-neke-tnen	VERB	_	Aspect=Prog|Mood=Cond|VerbForm=Conv	5	advcl	_	Gloss=do-PROG-COND
+9	Ni:-gol	Ni:-gol	PRON	_	PronType=Ind	11	nsubj	_	Gloss=someone
+10	eńen-ni	eńen-ni	VERB	_	Aspect=Perf|VerbForm=Part	11	advcl	_	Gloss=find-PF.PTCP
+11	bak-cˇa	bak-cˇa	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	Gloss=3PL.ACC
+12	no.	no.	PRON	_	Number=Sing|Person=3|PronType=Prs	11	discourse	_	Gloss=3SG
+13	Nmutnan	Nmutnan	NOUN	_	Number=Sing|Person=3|Poss=Yes	11	obl	_	Gloss=mother-POSS.3SG
+
