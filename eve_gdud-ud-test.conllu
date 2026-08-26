@@ -193,7 +193,7 @@
 2	o.	o.	DET	_	Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Dem	4	det	_	Gloss=our
 3	tu:-cˇan-ti	tu:-cˇan-ti	NOUN	_	Definite=Def|Number[psor]=Plur|Person[psor]=1|Poss=Yes	4	nsubj:outer	_	Gloss=fire-DIM.DEF-POSS.1PL|Derivation=Dim
 4	ele:r	ele:r	ADV	_	Deixis=Prox	5	advmod	_	Gloss=here
-5	bi-d-de-n	bi-d-de-n	VERB	_	Mood=Ind|Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=be-PROG-NFUT-3SG|Tense=NonPast|Aspect=Prog
+5	bi-d-de-n	bi-d-de-n	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=be-PROG-NFUT-3SG|Tense=NonPast
 6	,	,	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Even_grammar_19
@@ -216,7 +216,7 @@
 # sent_id = Even_grammar_21
 # text = irbo:k-keken ialdańa-kkan Ãu:
 # text[eng] = A very old, black little house.
-1	irbo:k-keken	irbo:k-keken	ADJ	_	Definite=Ind	3	amod	_	Gloss=old[EMPH]-DIM.INDEF|Degree=Aug|Derivation=Dim
+1	irbo:k-keken	irbo:k-keken	ADJ	_	Definite=Ind|Degree=Aug	3	amod	_	Gloss=old[EMPH]-DIM.INDEF|Derivation=Dim
 2	ialdańa-kkan	ialdańa-kkan	ADJ	_	Definite=Ind	3	amod	_	Gloss=coal.black-DIM.INDEF|Derivation=Dim
 3	Ãu:	Ãu:	NOUN	_	_	0	root	_	Gloss=house
 
@@ -225,7 +225,7 @@
 # text[eng] = “If you want to sharpen your axes, take such roughish stones from the river, sharpen them there,” I said.
 1	to.bar-ur	to.bar-ur	NOUN	_	Number=Plur|Reflex=Yes	9	nsubj	_	Gloss=axe-PRFL.PL
 2	awna-da:r	awna-da:r	VERB	_	VerbForm=Part|Voice=Mid	9	advcl	_	Gloss=sharpen-PURP.CVB.PRFL.PL|Aspect=Purp
-3	nek-mi	nek-mi	VERB	_	_	9	advcl	_	Gloss=do-COND.CVB|Mood=Cnd
+3	nek-mi	nek-mi	VERB	_	Mood=Cnd	9	advcl	_	Gloss=do-COND.CVB
 4	hu:	hu:	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	Gloss=2PL
 5	o.ka:t-tuk	o.ka:t-tuk	NOUN	_	Case=Abl	7	obl	_	Gloss=river-ABL
 6	tarbacˇan	tarbacˇan	NOUN	_	Definite=Ind	7	obj	_	Gloss=rough-DIM.INDEF stone|Derivation=Dim
@@ -406,7 +406,7 @@
 # text[eng] = And my poor father came, very pitiful, completely wet from sweat, covered in sweat that is running off him—my poor father.
 1	amm-u	amm-u	NOUN	_	Number=Sing|Person=1|Poss=Yes	12	nsubj	_	Gloss=father-POSS.1SG
 2	buolla	buolla	DET	_	PronType=Dem	3	det	_	Gloss=DP
-3	baraxsan	baraxsan	ADJ	_	_	1	amod	_	Gloss=dear|Degree=Aug
+3	baraxsan	baraxsan	ADJ	_	Degree=Aug	1	amod	_	Gloss=dear
 4	o.lo.k	o.lo.k	ADV	_	_	5	advmod	_	Gloss=completely|Degree=Int
 5	buluhi-kie	buluhi-kie	ADJ	_	_	1	amod	_	Gloss=pitiful|Degree=Int
 6	o.lo.k	o.lo.k	ADV	_	_	12	advmod	_	Gloss=completely|Degree=Int
@@ -417,7 +417,7 @@
 11	eje:-hen-cˇe-kken	eje:-hen-cˇe-kken	VERB	_	Aspect=Perf|VerbForm=Part	12	advcl	_	Gloss=come-PF.PTCP
 12	em-e:n-ne-n	em-e:n-ne-n	VERB	_	Mood=Ind|Number=Sing|Person=3	0	root	_	Gloss=come-3SG|Tense=NonPast
 13	amm-u	amm-u	NOUN	_	Number=Sing|Person=1|Poss=Yes	12	discourse	_	Gloss=father-POSS.1SG
-14	baraxsan	baraxsan	ADJ	_	_	13	amod	_	Gloss=dear|Degree=Aug
+14	baraxsan	baraxsan	ADJ	_	Degree=Aug	13	amod	_	Gloss=dear
 
 # sent_id = Even_grammar_39
 # text = tacˇ in tewte go:-niken Ãebe-cˇ-cˇe-l tacˇ in neke-Ã-e:n-neke-tnen Ni:-gol eńen-ni bak-cˇa no. Nmutnan
