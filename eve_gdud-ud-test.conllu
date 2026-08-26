@@ -5,7 +5,7 @@
 2	ecˇ	ecˇ	ADV	_	Deixis=Prox	4	advmod	_	Gloss=PROX.QUAL-AUG|Derivation=Aug
 3	i-je	i	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=3SG
 4	ila-baha-d-ni	ila-baha-d-ni	VERB	_	Mood=Ind|Number=Sing|Person=3	0	root	_	Gloss=stand.up-AUG.VB-NFUT-3SG|Tense=NonPast
-5	abaga-ń	abaga-ń	NOUN	_	_	4	nsubj	_	Gloss=grandfather-AUG.DEF|Derivation=Aug
+5	abaga-ń	abaga-ń	NOUN	_	_	4	nsubj:outer	_	Gloss=grandfather-AUG.DEF|Derivation=Aug
 6	Ãa	Ãa	DET	_	PronType=Dem	5	det	_	Gloss=DEF
 
 # sent_id = Even_grammar_2
@@ -28,7 +28,7 @@
 4	ecˇ	ecˇ	ADV	_	Deixis=Prox	8	advmod	_	Gloss=PROX.QUAL-DIM|Derivation=Dim
 5	i-ken	i-ken	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Gloss=3PL
 6	kotle-kken	kotle-kken	NOUN	_	Definite=Ind	8	obj	_	Gloss=small-DIM.INDEF|Derivation=Dim
-7	ampa:r-kakam	ampa:r-kakam	NOUN	_	Case=Acc|Definite=Ind	8	obj	_	Gloss=storage.shed[R]-DIM.INDEF.ACC|Derivation=Dim
+7	ampa:r-kakam	ampa:r-kakam	NOUN	_	Case=Acc|Definite=Ind	8	iobj	_	Gloss=storage.shed[R]-DIM.INDEF.ACC|Derivation=Dim
 8	o.:-cˇa-l	o.:-cˇa-l	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	Gloss=make-PF.PTCP-PL
 
 # sent_id = Even_grammar_4
@@ -108,14 +108,14 @@
 # text = tarak etike-Ne-n etiken Kejmetinov Afanasij Nikolaevis gerbe abaga-ńÃa-wu bi-hi-n tala, 12
 # text[eng] = Her husband, an old man called Afanasij Nikolaevič Kejmetinov, my grandfather, was there.
 1	tarak	tarak	DET	_	Deixis=Remt|PronType=Dem	6	det	_	Gloss=DIST
-2	etike-Ne-n	etike-Ne-n	NOUN	_	Person[psor]=3|Poss=Yes	6	appos	_	Gloss=old.man-ALN-POSS.3SG
+2	etike-Ne-n	etike-Ne-n	NOUN	_	Person[psor]=3|Poss=Yes	6	parataxis	_	Gloss=old.man-ALN-POSS.3SG
 3	etiken	etiken	NOUN	_	_	4	compound	_	Gloss=old.man
-4	Kejmetinov	Kejmetinov	PROPN	_	_	6	flat	_	Gloss=Kejmetinov
-5	Afanasij	Afanasij	PROPN	_	_	6	flat	_	Gloss=Afanasij
+4	Kejmetinov	Kejmetinov	PROPN	_	_	6	parataxis	_	Gloss=Kejmetinov
+5	Afanasij	Afanasij	PROPN	_	_	6	parataxis	_	Gloss=Afanasij
 6	Nikolaevis	Nikolaevis	PROPN	_	_	12	nsubj	_	Gloss=Nikolaevis
 7	gerbe	gerbe	NOUN	_	Definite=Def	6	appos	_	Gloss=name
 8	abaga-ńÃa-wu	abaga-ńÃa-wu	NOUN	_	Definite=Def|Person[psor]=1|Poss=Yes	12	nmod	_	Gloss=grandfather-AUG.DEF-POSS.1SG|Derivation=Aug
-9	bi-hi-n	bi-hi-n	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	Gloss=be-PST-3SG
+9	bi-hi-n	bi	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	Gloss=be-PST-3SG
 10	tala	tala	ADV	_	_	12	advmod	_	SpaceAfter=No|Gloss=there
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	12	12	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=be-PST-3SG
@@ -191,7 +191,7 @@
 # text[eng] = And our whatchamacallit, our fire is here.
 1	ia-cˇan-ti	ia-cˇan-ti	NOUN	_	Definite=Def|Number[psor]=Plur|Person[psor]=1|Poss=Yes	4	nsubj	_	Gloss=what-DIM.DEF-POSS.1PL|Derivation=Dim
 2	o.	o.	DET	_	Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Dem	4	det	_	Gloss=our
-3	tu:-cˇan-ti	tu:-cˇan-ti	NOUN	_	Definite=Def|Number[psor]=Plur|Person[psor]=1|Poss=Yes	4	nsubj	_	Gloss=fire-DIM.DEF-POSS.1PL|Derivation=Dim
+3	tu:-cˇan-ti	tu:-cˇan-ti	NOUN	_	Definite=Def|Number[psor]=Plur|Person[psor]=1|Poss=Yes	4	nsubj:outer	_	Gloss=fire-DIM.DEF-POSS.1PL|Derivation=Dim
 4	ele:r	ele:r	ADV	_	Deixis=Prox	5	advmod	_	Gloss=here
 5	bi-d-de-n	bi-d-de-n	VERB	_	Mood=Ind|Number=Sing|Person=3	0	root	_	SpaceAfter=No|Gloss=be-PROG-NFUT-3SG|Tense=NonPast|Aspect=Prog
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -230,7 +230,7 @@
 5	o.ka:t-tuk	o.ka:t-tuk	NOUN	_	Case=Abl	7	obl	_	Gloss=river-ABL
 6	tarbacˇan	tarbacˇan	NOUN	_	Definite=Ind	7	obj	_	Gloss=rough-DIM.INDEF stone|Derivation=Dim
 7	hebehri-kken	hebehri-kken	VERB	_	Number=Plur|VerbForm=Part	9	advcl	_	Gloss=take-ANT.CVB.PL|Aspect=Ant
-8	iNa-w	iNa-w	NOUN	_	Case=Acc	7	obj	_	Gloss=stone-ACC
+8	iNa-w	iNa-w	NOUN	_	Case=Acc	7	iobj	_	Gloss=stone-ACC
 9	ga-riÃur	ga-riÃur	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	Gloss=sharpen-IMP.2PL
 10	tala	tala	ADV	_	_	9	advmod	_	Gloss=there
 11	awna-lda	awna-lda	VERB	_	Mood=Ind|Number=Sing|Person=1	9	parataxis	_	SpaceAfter=No|Gloss=say-NFUT-1SG|Tense=NonPast
@@ -252,7 +252,7 @@
 # sent_id = Even_grammar_24
 # text = omen egÃe-meje etiken tegecˇe-d-cˇe gurgata-lkan,
 # text[eng] = One huge old man was sitting, he had a beard.
-1	omen	omen	NUM	_	NumType=Card	4	det	_	Gloss=one
+1	omen	omen	NUM	_	NumType=Card	4	nummod	_	Gloss=one
 2	egÃe-meje	egÃe-meje	ADJ	_	Definite=Ind	4	amod	_	Gloss=big-AUG.INDEF|Derivation=Aug
 3	etiken	etiken	NOUN	_	Definite=Ind	4	nsubj	_	Gloss=old.man-DIM.INDEF|Derivation=Dim
 4	tegecˇe-d-cˇe	tegecˇe-d-cˇe	VERB	_	Aspect=Prog|VerbForm=Part|Voice=Act	0	root	_	Gloss=sit-PROG.PTCP
@@ -272,7 +272,7 @@
 # sent_id = Even_grammar_26
 # text = omen koza-lka-kkan bej ielten-i-n
 # text[eng] = A man with a little goat walked past.
-1	omen	omen	NUM	_	NumType=Card	3	det	_	Gloss=one
+1	omen	omen	NUM	_	NumType=Card	3	nummod	_	Gloss=one
 2	koza-lka-kkan	koza-lka-kkan	NOUN	_	Definite=Ind	3	nmod	_	Gloss=goat-DIM.INDEF|Derivation=Dim
 3	bej	bej	NOUN	_	_	4	nsubj	_	Gloss=man
 4	ielten-i-n	ielten-i-n	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=pass-PST-3SG
@@ -346,8 +346,8 @@
 2	huj-u-t-je:Ãi-l	huj-u-t-je:Ãi-l	VERB	_	Number=Plur|VerbForm=Conv	9	advcl	_	Gloss=boil-TRNS-RES-AUG.CVB-PL|Aspect=Res|Derivation=Aug
 3	ulde-we-n	ulde-we-n	NOUN	_	Case=Acc|Number=Sing|Person=3|Poss=Yes	9	obj	_	Gloss=meat-ACC-POSS.3SG
 4	anaN	anaN	NOUN	_	_	6	nsubj	_	Gloss=ram
-5	ia-wa-n	ia-wa-n	PRON	_	Case=Acc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	obj	_	Gloss=what-ACC-POSS.3SG
-6	ulde-we-n	ulde-we-n	NOUN	_	Case=Acc|Number=Sing|Person=3|Poss=Yes	9	obj	_	Gloss=meat-ACC-POSS.3SG
+5	ia-wa-n	ia-wa-n	PRON	_	Case=Acc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	iobj	_	Gloss=what-ACC-POSS.3SG
+6	ulde-we-n	ulde-we-n	NOUN	_	Case=Acc|Number=Sing|Person=3|Poss=Yes	9	iobj	_	Gloss=meat-ACC-POSS.3SG
 7	Ãeb-Ãi-p=tu	Ãeb-Ãi-p=tu	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	9	advcl	_	Gloss=eat-FUT-1PL=PRES
 8	go:-je:Ãi-l	go:-je:Ãi-l	VERB	_	Number=Plur|VerbForm=Conv	9	advcl	_	SpaceAfter=No|Gloss=say-AUG.CVB-PL|Derivation=Aug
 9	.	.	PUNCT	_	_	0	root	_	_
@@ -432,7 +432,7 @@
 8	neke-Ã-e:n-neke-tnen	neke-Ã-e:n-neke-tnen	VERB	_	Aspect=Prog|Mood=Cnd|VerbForm=Conv	5	advcl	_	Gloss=do-PROG-COND
 9	Ni:-gol	Ni:-gol	PRON	_	PronType=Ind	11	nsubj	_	Gloss=someone
 10	eńen-ni	eńen-ni	VERB	_	Aspect=Perf|VerbForm=Part	11	advcl	_	Gloss=find-PF.PTCP
-11	bak-cˇa	bak-cˇa	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	Gloss=3PL.ACC
+11	bak-cˇa	bak-cˇa	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	iobj	_	Gloss=3PL.ACC
 12	no.	no.	PRON	_	Number=Sing|Person=3|PronType=Prs	11	discourse	_	Gloss=3SG
 13	Nmutnan	Nmutnan	NOUN	_	Number=Sing|Person=3|Poss=Yes	11	obl	_	Gloss=mother-POSS.3SG
 
