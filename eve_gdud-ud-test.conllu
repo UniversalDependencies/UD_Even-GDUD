@@ -16,7 +16,7 @@
 3	i-je	i	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=3SG
 4	ha:mat-ja:Ãi	ha:mat-ja:Ãi	VERB	_	VerbForm=Conv	5	advcl	_	Gloss=laugh-AUG.CVB|Derivation=Aug
 5	go:n-e-m	go:n-e-m	VERB	_	Mood=Ind|Number=Sing|Person=1	0	root	_	Gloss=say-NFUT-1SG|Tense=NonPast
-6	“ehni!”	“ehni!”	PART	_	PartType=Foc|Polarity=Neg	5	discourse	_	Gloss=no
+6	“ehni!”	“ehni!”	PART	_	Polarity=Neg	5	discourse	_	Gloss=no|PartType=Foc
 7	tarit	tarit	ADV	_	_	5	advmod	_	Gloss=then
 
 # sent_id = Even_grammar_3
