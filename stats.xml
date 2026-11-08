@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>39</sentences><tokens>282</tokens><words>282</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>39</sentences><tokens>282</tokens><words>282</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="223" /><!-- ,, no., ., ecˇ, in, tala, tarit, amm-u, baraxsan, tar, bi:, buolla, do.:-la-n, egÃe-meje, ejm-u -->
+  <forms unique="221" /><!-- ,, no., ., ecˇ, in, tala, tarit, amm-u, baraxsan, o., tar, bi-hi-n, bi:, buolla, do.:-la-n -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">24</tag><!-- baraxsan, egÃe-meje, kolle-kken, buluhi-kie, buolla, cˇulbańa-maja, cˇulbańa-ń, dahli-kkan, egÃo:-meje, guÃeje-kie-kke-l -->
+    <tag name="ADP">2</tag><!-- in -->
+    <tag name="ADV">42</tag><!-- ecˇ, tala, tarit, no., ele, o.lo.k, Nan, NeneN, bütünnü:, cˇa:w-du -->
+    <tag name="AUX">1</tag><!-- bi -->
+    <tag name="DET">12</tag><!-- tacˇ, tar, tarak, buolla, o., tar-cˇa-l, tar-cˇam, tara-w, Ãa -->
+    <tag name="INTJ">3</tag><!-- Oo, o., Ãi: -->
+    <tag name="NOUN">67</tag><!-- amm-u, ejm-u, etiken, in, ulde-we-n, Dima-cˇan, Nmutnan, No., Vladimira-ńÃa, abaga-ń -->
+    <tag name="NUM">4</tag><!-- omen, Nan:, alta -->
+    <tag name="PART">11</tag><!-- prt, :n, No., at, ere, es, mo:, tar, ńo:-Ãi-m, “ehni!” -->
+    <tag name="PRON">19</tag><!-- no., bi:, i, .o., Ni:-gol, bak-cˇa, beje-t, hu:, i-ken, ia-kakan -->
+    <tag name="PROPN">5</tag><!-- Afanasij, Dima-cˇam, Kejmetinov, Nikolaevis, Pasko.-cˇane -->
+    <tag name="PUNCT">20</tag><!-- ,, ., ..., ?, [...], ” -->
+    <tag name="VERB">72</tag><!-- do.:-la-n, go:-je:Ãi, 12, Ni:-cˇem, awna-da:r, awna-lda, bak-alda-ra-p, bari-cˇ-cˇa-l, bi-d-de-n, bi-h-ni -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="41">
+    <feat name="Aspect" value="Hab" upos="VERB">2</feat><!-- bi-wre-cˇe-l, bi-wre-r -->
+    <feat name="Aspect" value="Imp" upos="VERB">1</feat><!-- biet-ti -->
+    <feat name="Aspect" value="Perf" upos="VERB">10</feat><!-- bari-cˇ-cˇa-l, eje:-hen-cˇe-kken, em-u-cˇe, eńen-ni, hokolo-n, irka-cˇa-la-n, k-cˇa-l, ne:-kecˇ-cˇe, o.:-cˇa, patuk-cˇa -->
+    <feat name="Aspect" value="Prog" upos="VERB">6</feat><!-- bi-d-de-n, go:-niken, haNana-ssi-d-da-m, i:-Ã-e:n-ne-n, neke-Ã-e:n-neke-tnen, tegecˇe-d-cˇe -->
+    <feat name="Case" value="Abl" upos="NOUN">4</feat><!-- amar-da-duku-n, iNa-duk, o.ka:t-tuk, urekcˇ -->
+    <feat name="Case" value="Acc" upos="DET,NOUN,PRON,PROPN">17</feat><!-- ulde-we-n, Dima-cˇam, ampa:r-kakam, bak-cˇa, burduk-kaka-l-bu, cˇurita-Na-l-bu, gruša-w, iNa-w, ia-wa-n, kiliep-u -->
+    <feat name="Case" value="Dat" upos="NOUN">2</feat><!-- ahikan-du, bekecˇ-cˇen-du-tne -->
+    <feat name="Case" value="Ins" upos="PRON">1</feat><!-- me:n-Ãur -->
+    <feat name="Case" value="Loc" upos="NOUN">4</feat><!-- bokke, domNe-le, hat-la-n, ülǖ -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,PRON,PROPN">17</feat><!-- Dima-cˇam, Dima-cˇan, Pasko.-cˇane, Vladimira-ńÃa, abaga-ńÃa, abaga-ńÃa-wu, bekecˇ-cˇen-du-tne, cˇulbańa-ń, gerbe, ia-cˇan-ti -->
+    <feat name="Definite" value="Ind" upos="ADJ,NOUN,PRON">33</feat><!-- egÃe-meje, No., aka-lkan-maja, ampa:r-kakam, buolla, burduk-kaka-l-bu, busa-mdas, cˇulbańa-maja, dahli-kkan, egÃo:-meje -->
+    <feat name="Degree" value="Aug" upos="ADJ">3</feat><!-- baraxsan, irbo:k-keken -->
+    <feat name="Deixis" value="Prox" upos="ADV">10</feat><!-- ecˇ, ecˇin, ele:r, er, tara-Naka:n -->
+    <feat name="Deixis" value="Remt" upos="DET">9</feat><!-- tacˇ, tar, tarak, tar-cˇa-l, tar-cˇam, tara-w -->
+    <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- nek-mi, neke-Ã-e:n-neke-tnen -->
+    <feat name="Mood" value="Imp" upos="VERB">1</feat><!-- ga-riÃur -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">36</feat><!-- bi-hi-n, do.:-la-n, 12, awna-lda, bak-alda-ra-p, bi-d-de-n, bi-h-ni, bi-he-m, bi-he-nni, bi-wre-cˇe-l -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,VERB">34</feat><!-- bak-alda-ra-p, bak-cˇa, bari-cˇ-cˇa-l, beje-t, bi-wre-cˇe-l, bi-wre-r, burduk-kaka-l-bu, cˇurita-Na-l-bu, ga-riÃur, go:-je:Ãi-l -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PRON,VERB">51</feat><!-- amm-u, no., bi-hi-n, bi:, do.:-la-n, ejm-u, i-je, ulde-we-n, 12, Nmutnan -->
+    <feat name="Number[psor]" value="Plur" upos="DET,NOUN">4</feat><!-- bekecˇ-cˇen-du-tne, ia-cˇan-ti, o., tu:-cˇan-ti -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN">1</feat><!-- hat-la-n -->
+    <feat name="NumType" value="Card" upos="NUM">4</feat><!-- omen, Nan:, alta -->
+    <feat name="Person" value="1" upos="NOUN,PRON,VERB">19</feat><!-- amm-u, bi:, ejm-u, awna-lda, bak-alda-ra-p, beje-t, bi-he-m, go:n-e-m, haNana-ssi-d-da-m, ia-w -->
+    <feat name="Person" value="2" upos="PRON,VERB">3</feat><!-- bi-he-nni, ga-riÃur, hu: -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PRON,VERB">42</feat><!-- no., bi-hi-n, do.:-la-n, i-je, ulde-we-n, 12, Nmutnan, amar-da-duku-n, bak-cˇa, bi-d-de-n -->
+    <feat name="Person[psor]" value="1" upos="DET,NOUN">5</feat><!-- abaga-ńÃa-wu, ia-cˇan-ti, o., tu:-cˇan-ti, Ãanisa-N-u -->
+    <feat name="Person[psor]" value="3" upos="NOUN">3</feat><!-- bekecˇ-cˇen-du-tne, etike-Ne-n, hat-la-n -->
+    <feat name="Polarity" value="Neg" upos="PART">2</feat><!-- at, “ehni!” -->
+    <feat name="Poss" value="Yes" upos="DET,NOUN,PRON">21</feat><!-- amm-u, ejm-u, ulde-we-n, Nmutnan, abaga-ńÃa-wu, amar-da-duku-n, beje-t, bekecˇ-cˇen-du-tne, bokke, etike-Ne-n -->
+    <feat name="PronType" value="Dem" upos="DET">12</feat><!-- tacˇ, tar, tarak, buolla, o., tar-cˇa-l, tar-cˇam, tara-w, Ãa -->
+    <feat name="PronType" value="Ind" upos="ADJ,PRON">2</feat><!-- Ni:-gol, ha:n -->
+    <feat name="PronType" value="Int" upos="PRON">4</feat><!-- ia-kakan, nan, o., tarako.:n -->
+    <feat name="PronType" value="Prs" upos="PRON">14</feat><!-- no., bi:, i-je, bak-cˇa, beje-t, hu:, i-ken, ia-w, ia-wa-n, me:n-Ãur -->
+    <feat name="Reflex" value="Yes" upos="NOUN,PRON">4</feat><!-- ieke-wur, kahna-cˇam-ur, me:n-Ãur, to.bar-ur -->
+    <feat name="Tense" value="Fut" upos="VERB">5</feat><!-- bi-Ãi-n, go.l, nek-e:n-Ãi-m, ta-li, Ãeb-Ãi-p=tu -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">14</feat><!-- bi-hi-n, do.:-la-n, 12, go:n-i-n, ia-ri-n, ielten-i-dnen, ielten-i-n, ihu-je:t-ti-t, ne:-ri-w, o.:-cˇa-l -->
+    <feat name="VerbForm" value="Conv" upos="VERB">16</feat><!-- go:-je:Ãi, Ni:-cˇem, go:-je:Ãi-l, ha:mak-ku:nÃi, ha:mat-ja:Ãi, ho.r-riÃi, hobgi-k-ko:nÃur, huj-u-t-je:Ãi-l, ia-ja:Ãi, ila-ja:Ãi -->
+    <feat name="VerbForm" value="Fin" upos="VERB">5</feat><!-- bi-Ãi-n, ga-riÃur, go.l, i:-Ã-e:n-ne-n, ńo:-je:t-te-n -->
+    <feat name="VerbForm" value="Part" upos="VERB">15</feat><!-- awna-da:r, bari-cˇ-cˇa-l, biet-ti, eje:-hen-cˇe-kken, em-u-cˇe, eńen-ni, go:-niken, hebehri-kken, hokolo-n, irka-cˇa-la-n -->
+    <feat name="Voice" value="Act" upos="VERB">1</feat><!-- tegecˇe-d-cˇe -->
+    <feat name="Voice" value="Mid" upos="VERB">1</feat><!-- awna-da:r -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="21">
+    <dep name="acl">2</dep>
+    <dep name="advcl">32</dep>
+    <dep name="advmod">42</dep>
+    <dep name="amod">22</dep>
+    <dep name="appos">4</dep>
+    <dep name="case">2</dep>
+    <dep name="compound">4</dep>
+    <dep name="cop">1</dep>
+    <dep name="det">8</dep>
+    <dep name="discourse">19</dep>
+    <dep name="iobj">7</dep>
+    <dep name="nmod">2</dep>
+    <dep name="nsubj">34</dep>
+    <dep name="nsubj:outer">2</dep>
+    <dep name="nummod">4</dep>
+    <dep name="obj">18</dep>
+    <dep name="obl">9</dep>
+    <dep name="parataxis">11</dep>
+    <dep name="punct">19</dep>
+    <dep name="root">39</dep>
+    <dep name="xcomp">1</dep>
+  </deps>
+</treebank>
